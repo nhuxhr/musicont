@@ -1,0 +1,44 @@
+{
+	"expo": {
+		"name": "Musicont",
+		"description": "React Native & Expo music player application UI",
+		"slug": "musicont",
+		"owner": "jsxclan",
+		"version": "1.0.0",
+		"githubUrl": "https://github.com/jsxclan/musicont",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"androidStatusBar": {
+			"barStyle": "light-content"
+		},
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "cover",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "jsxclan.musicont",
+			"config": {
+				"googleMobileAdsAppId": "ca-app-pub-3940256099942544~1458002511"
+			}
+		},
+		"android": {
+			"package": "jsxclan.musicont",
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#FFFFFF"
+			},
+			"config": {
+				"googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
+			}
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		}
+	}
+}
